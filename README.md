@@ -7,4 +7,4 @@
 > Functionalities
 
 - Do vedio conference
-- Record the vedio and pass it to backend api
+- Record the vedio and pass it to backend api 
