@@ -1,3 +1,15 @@
+# Getting Started
+
+## To get the frontend website running locally
+
+```
+cd frontend/vkyc-consortium
+
+npm install
+
+```
+This will install all the required node-modules 
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
