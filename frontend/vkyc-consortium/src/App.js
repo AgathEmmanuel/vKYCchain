@@ -26,13 +26,13 @@ function App() {
       <BrowserRouter >
       <Header />
     <Routes>
-      <Route path='/' element={<Home />} exact />
+      <Route path='/home' element={<Home />} exact />
       <Route path='/signup' element={<SignUp />} />
       <Route path='/login' element={<Login />} />
       <Route path='/vkyc-register' element={<VkycRegister />} />
       <Route path='/vkyc-verify' element={<VkycVerify />} />
       <Route path='/verify-or-register-or-takekyc' element={<VerifyOrRegister />} /> 
-      <Route path='/p' element={<PageNotFound />} />
+      <Route path='/*' element={<PageNotFound />} />
     </Routes>
       </BrowserRouter >
     </div>

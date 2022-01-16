@@ -11,7 +11,7 @@ function Header() {
         <div className="header_name">vKYC Consortium</div>
         <div className="header_options">
             <div className="header_option1">
- <Link to='/'>
+ <Link to='/home'>
     <Button className="btn_options">
           Home
     </Button>
