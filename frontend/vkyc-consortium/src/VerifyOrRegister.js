@@ -1,11 +1,11 @@
-import React from 'react'
+import React from "react";
 
 const VerifyOrRegister = () => {
   return (
     <div>
-      <h1>Verify or Register</h1>
+      <h1>VerifyorRegister</h1>
     </div>
-  )
-}
+  );
+};
 
-export default VerifyOrRegister
+export default VerifyOrRegister;
