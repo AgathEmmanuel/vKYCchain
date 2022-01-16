@@ -6,9 +6,9 @@ import Home from "./Home"
 import SignUp from './SignUp'
 import Login from './Login'
 import VerifyOrRegister from './VerifyOrRegister'
-import VkycRegister from './VkycRegister'
 import VkycVerify from './VkycVerify'
 import PageNotFound from './PageNotFound'
+import RegisterCustomer from './RegisterCustomer';
 
 function App() {
   return (
@@ -29,7 +29,7 @@ function App() {
       <Route path='/home' element={<Home />} exact />
       <Route path='/signup' element={<SignUp />} />
       <Route path='/login' element={<Login />} />
-      <Route path='/vkyc-register' element={<VkycRegister />} />
+      <Route path='/vkyc-register' element={<RegisterCustomer />} />
       <Route path='/vkyc-verify' element={<VkycVerify />} />
       <Route path='/verify-or-register-or-takekyc' element={<VerifyOrRegister />} /> 
       <Route path='/*' element={<PageNotFound />} />
