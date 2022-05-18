@@ -38,6 +38,22 @@ Advantages of vKYCchain
 
 ## Development
 
+## Vedio Conference App for KYC
+
+> Functionalities
+
+- Do vedio conference
+- Setting up session with private rooms for multple users and verifiers
+- vedio stop and audio mute functions
+- Record the vedio and pass it to backend api 
+
+
+> Technologies used
+
+- nodejs
+- socket.io
+- express.js
+=======
 - Hyperledger Fabric is a blockchain framework that runs smart contracts called chaincode, which are written in Go.  
 - You can create a private network with Hyperledger Fabric, limiting the peers that can connect to and participate in the network.
 
